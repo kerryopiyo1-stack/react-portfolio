@@ -74,4 +74,4 @@
   );
 }
 
-export default
+export default  Footer
