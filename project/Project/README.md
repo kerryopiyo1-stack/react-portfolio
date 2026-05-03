@@ -4,7 +4,6 @@ A modern, responsive portfolio website built with React and Tailwind CSS featuri
 
 ## Features
 
-- Beautiful glassmorphism UI design
 - Fully responsive (mobile, tablet, desktop)
 - Search functionality for projects
 - Add new projects dynamically
@@ -42,7 +41,6 @@ To create an optimized production build:
 npm run build
 ```
 
-The build files will be in the `dist` folder.
 
 ## Project Structure
 
@@ -88,32 +86,10 @@ The main gradient colors are in `src/App.jsx`. Look for:
 - `from-cyan-500` / `to-teal-500` (button gradients)
 - Background gradient in the main div
 
-## Deployment
-
-### Deploy to Netlify
-
-1. Build the project: `npm run build`
-2. Drag and drop the `dist` folder to Netlify
-
-### Deploy to Vercel
-
-1. Install Vercel CLI: `npm i -g vercel`
-2. Run: `vercel`
-3. Follow the prompts
-
-### Deploy to GitHub Pages
-
-1. Install gh-pages: `npm install --save-dev gh-pages`
-2. Add to package.json scripts:
-   ```json
-   "predeploy": "npm run build",
-   "deploy": "gh-pages -d dist"
-   ```
-3. Run: `npm run deploy`
-
+#
 ## Technologies Used
 
-- React 18
+- React 1
 - Vite
 - Tailwind CSS
 - Modern JavaScript (ES6+)
