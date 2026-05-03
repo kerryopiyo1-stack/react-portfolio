@@ -1,4 +1,4 @@
-
+import { SearchIcon } from "../icons";
 
 /**
  * Empty State Component
@@ -20,3 +20,5 @@ function EmptyState({ isSearch }) {
     </div>
   );
 }
+
+export default EmptyState
