@@ -1,6 +1,6 @@
 # Creative Portfolio
 
-A modern, responsive portfolio website built with React and Tailwind CSS featuring glassmorphism design.
+A modern, responsive portfolio website built with React and Tailwind CSS 
 
 ## Features
 
