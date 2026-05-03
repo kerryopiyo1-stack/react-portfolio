@@ -92,8 +92,11 @@ export default function AddProjectForm({ onAdd, formRef }) {
             {formFields.map(({ key, label, placeholder, type }) => (
               <div key={key}>
                 <label className="block text-gray-300 text-sm font-medium mb-2">{label}</label>
+                {/* input*/}
                 {type === "textarea" ? (
                   <textarea
+                  id={key}
+                  name={key}
                     rows={4}
                     value={formData[key]}
                     onChange={(e) => updateField(key, e.target.value)}
@@ -106,6 +109,8 @@ export default function AddProjectForm({ onAdd, formRef }) {
                   />
                 ) : (
                   <input
+                  id={key}
+                  name={key}
                     type="text"
                     value={formData[key]}
                     onChange={(e) => updateField(key, e.target.value)}
