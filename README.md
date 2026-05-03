@@ -1,6 +1,6 @@
 # Creative Portfolio
 
-A modern, responsive portfolio website built with React and Tailwind CSS featuring glassmorphism design.
+A modern, responsive portfolio website built with React and Tailwind CSS.
 
 ## Features
 
@@ -11,11 +11,6 @@ A modern, responsive portfolio website built with React and Tailwind CSS featuri
 - Fast and optimized with Vite
 
 ## Getting Started
-
-### Prerequisites
-
-- Node.js (version 16 or higher)
-- npm or yarn
 
 ### Installation
 
@@ -32,14 +27,6 @@ npm run dev
 ```
 
 4. Open your browser and visit: `http://localhost:5174`
-
-## Build for Production
-
-To create an optimized production build:
-
-```bash
-npm run build
-```
 
 
 ## Project Structure
@@ -69,17 +56,9 @@ Project/
 └── tailwind.config.js       # Tailwind CSS configuration
 ```
 
-## Customization
 
-### Update Your Projects
 
-Edit `src/data.js` and modify the `PROJECTS` array with your own projects.
 
-### Update Social Links
-
-Edit `src/data.js` and modify the `SOCIAL_LINKS` array with your social media profiles.
-
-### Change Colors
 
 The main gradient colors are in `src/App.jsx`. Look for:
 - `from-cyan-400` / `to-teal-400` (text gradients)
@@ -92,6 +71,6 @@ The main gradient colors are in `src/App.jsx`. Look for:
 - React 1
 - Vite
 - Tailwind CSS
-- Modern JavaScript (ES6+)
+  
 
 
