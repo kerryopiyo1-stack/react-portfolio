@@ -94,6 +94,4 @@ The main gradient colors are in `src/App.jsx`. Look for:
 - Tailwind CSS
 - Modern JavaScript (ES6+)
 
-## License
 
-Free to use for personal and educational purposes.
